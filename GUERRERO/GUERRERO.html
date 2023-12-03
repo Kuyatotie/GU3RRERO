@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en " > 
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="./images/Profile.jpg "   type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>GUERRERO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+<!----HEADER-->
+    <nav class="navbar navbar-expand-lg bg-warning navbar-danger pt-5 py-3 fixed-top  text-bg-dark p-5">
+        <div class="container">
+          <a href="" class="navbar-brand">
+           <img src="./images/Profile.jpg" alt="">
+            <span class="text-warning">VICTOR
+
+            </span>GUERRERO </a>
+    
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubtn">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+      
+        <div class="collapse navbar-collapse" id="menubtn">
+            <ul class="navbar-nav ms-auto" >
+                <li class="nav-item"  >
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ABOUT" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+               
+    
+            </ul>
+            
+            </div>
+            
+            
+        </div>
+               
+    </nav>
+<!---HEADER SECTION END-->
+<!--HOMESECTION-->
+<section id="home" class="bg-light text-dark  text-capitalize text-center  text-sm-start  w-100 h-100 p-5">
+    <div class="container">
+      <div class="d-sm-flex align-items-center">
+        <div>
+            <h1>COMPUTER <span class="text-warning">SCIENCE </span>  STUDENT</h1>
+            <p class="lead my-4 ">
+                As a computer science student  and also freelancer , I am excited to explore the endless possibilities that technology offers. From a young age, I have been fascinated by the ability of computers to simplify complex processes and make our lives easier. Through my studies, I have gained a deep understanding of programming languages, algorithms, data structures, software engineering, and computer architecture.
+            </p>
+            <button id="totie" type="button" class="btn btn-primary btn-lg  " data-bs-toggle="modal" data-bs-target="#MESSAGE"
+            
+            >
+            MESSAGE ME NOW</button>
+        </div>
+        <img class="img-fluid w-50" src="./images/bg.png" alt="">
+      </div>
+
+     
+    </div>
+
+
+
+
+    
+
+</section>
+
+
+
+
+  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+for(tablinks of tablinks){
+    tablinks.classList.remove("active-link");
+}
+for (tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+
+}
+    </script>
+
+<div class="modal fade" id="MESSAGE" tabindex="-1" aria-labelledby="MESSAGE" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="MESSAGE">DIRECTLY MESSAGE HERE</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-light h-100 w-100 fs-6 text-bg-danger p-5">
+          <p> YOU CAN DIRECTLY MESSAGE ME HERE</p>
+          <form action="" >
+            <div class="mb-xxl-4 text-bg-dark">
+                <label for="Your name" class="col-form-label"> NAME</label>
+                <input type="text"  name="Name" class="form-control" placeholder=" Your Name" required>
+            </div>
+            <div class="mb-xxl-4 text-bg-dark">
+                <label for="Your Email " class="col-form-label"> Email</label>
+                <input type="email"  name="Email" class="form-control" placeholder=" Your Name" required>
+            </div>
+
+            <div class="mb-xxl-4 text-bg-dark">
+                <label for="Your Message " class="col-form-label"> MESSAGE</label>
+                <textarea name="Message"  class="form-control" rows="6" placeholder=" Your Message"> </textarea>
+               
+            </div>
+            <button id="totie" type="submit" class="btn">Submit</button>
+
+
+          </form>
+
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
+
+   

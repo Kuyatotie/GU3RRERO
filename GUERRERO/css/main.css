@@ -1,0 +1,87 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+ }
+ html{
+   scroll-behavior: fixed
+   ;
+ }
+
+ html {
+   color: #ffff;
+    font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+ }
+
+ html::-webkit-scrollbar {
+   width: .8rem;
+ }
+ html::-webkit-scrollbar-track {
+    background: transparent;
+ }
+
+ html::-webkit-scrollbar-thumb {
+    background: #ffff;
+    border: 5rem;
+ }
+
+/*------header------------*/
+body::before{
+    display: block;
+    content: '';
+    height: 100px;
+}
+
+
+
+#home{
+    height: 100vh;
+}
+  .navbar a {
+    font:bolder;
+   font-size: 1.2rem;
+   font-weight: 1200  ;
+  }
+  .navbar .navbar-brand img{
+  border-radius: 3rem;
+   height: 6rem;
+   width: 6rem;
+  } 
+  
+  .navbar a:hover {
+    color: crimson;
+    border-bottom: .1rem solid var(dark);
+    padding: .5rem;
+     
+  
+  }
+  /*---about---*/
+ 
+  
+
+
+#totie {
+  
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    background-color: #f77062;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  #totie:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+  }
+  
